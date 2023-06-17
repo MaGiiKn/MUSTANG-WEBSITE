@@ -1,0 +1,43 @@
+body{
+    background-color: #312B2F;
+    margin: 0px;
+}
+
+.batmanicon{
+    display: flex;
+}
+
+.batmanicon img{
+    width: 50px;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    gap: 20px;
+    border-bottom: solid white;
+} 
+
+.navbar-right > *{
+    display: flex;
+    padding: 10px;
+}
+
+.back-video{
+    display: flex;
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.presentacion{
+    color: white;
+    font-family: 'Bruno Ace', cursive;
+}
+
+
