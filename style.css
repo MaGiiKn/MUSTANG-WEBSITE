@@ -3,41 +3,86 @@ body{
     margin: 0px;
 }
 
-.batmanicon{
-    display: flex;
-}
-
-.batmanicon img{
-    width: 50px;
-}
-
 .navbar-right{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white; 
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     gap: 20px;
     border-bottom: solid white;
+    height: 80px;
+    flex-wrap: wrap;
 } 
+
+.mustangicon img{
+    width: 60px;
+}
 
 .navbar-right > *{
     display: flex;
     padding: 10px;
 }
 
-.back-video{
-    display: flex;
-    position: fixed;
-    z-index: -1;
-    right: 0;
-    bottom: 0;
-}
-
 .presentacion{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
     color: white;
     font-family: 'Bruno Ace', cursive;
+    font-size: 40px;
+    position: absolute;
+    top: 115px;
 }
 
+#fordmustangtittle{
+    color: #312B2F; 
+}
 
+.portfolio{
+    color: #ADADAD; 
+}
+
+.container{
+    position: relative;
+    display: flex;
+    background-color: #DAD3D1;
+    height: 400px;
+    width: 600px;
+    border-top-right-radius: 35% ;
+    border-bottom-right-radius: 35% ;
+    align-items: center;
+    bottom: -80px;
+    z-index: -1;
+}
+
+.container img{
+    position: absolute;
+    width: 700px;
+}
+
+.informaciones{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    align-items: center;
+    top: 250px;
+    right: 0px;
+    left: 800px;
+    gap: 30px;
+}
+
+.masinformaciones{
+    display: flex;
+    border: solid white;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
