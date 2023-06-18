@@ -2,31 +2,45 @@ body{
     background-color: #312B2F;
 }
 
-.contenido{
-    margin-left: 100px;
-    margin-right: 100px;
+nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: rgb(0,0,0);
+    background: linear-gradient(7deg, rgba(0,0,0,0.3232143199076506) 0%, rgba(5,0,0,0.3904412106639531) 0%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    opacity: 0.5px;
+    top: 0px;
+    left: 0px;
+
 }
 
-.navbar-right{
+.navbar-center{
     display: flex;
     align-items: center;
     justify-content: center;
     color: #DAD3D1; 
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    gap: 20px;
-    border-bottom: solid #DAD3D1;
-    height: 80px;
-    flex-wrap: wrap;
+    gap: 40px;
 } 
+
+.section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1200px;
+    height: 700px;
+    border-bottom: solid #ADADAD;
+}
 
 .mustangicon img{
     width: 60px;
-}
-
-.navbar-right > *{
-    display: flex;
-    padding: 10px;
 }
 
 .presentacion{
@@ -37,7 +51,7 @@ body{
     font-family: 'Bruno Ace', cursive;
     font-size: 40px;
     position: absolute;
-    top: 115px;
+    top: 100px;
 }
 
 #fordmustangtittle{
@@ -56,7 +70,7 @@ body{
     width: 600px;
     border-top-right-radius: 30% ;
     align-items: center;
-    bottom: -75px;
+    bottom: -140px;
     z-index: -1;
 }
 
@@ -94,48 +108,12 @@ body{
 
 .section2{
     display: flex;
-    flex-wrap: wrap;
-    border-bottom: linear #ADADAD;
-}
-
-.linea{
-    content: "";
-    position: relative;
-    width: 100%;
-    height: 3px;
-    background-color: #40373C;
-    bottom: -200px;
-}
-
-.section2{
-    position: relative;
-}
-
-.section2circle{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    width: 400px;
-    height: 380px;
-    background-color: #40373C;
-    right: 0px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    top: 350px;
-}
-
-.historia2{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    width: 300px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    top: 450px;
-    gap: 30px;
-    left: 150px;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1200px;
+    height: 600px;
+    border-bottom: solid #ADADAD;
 }
 
 
