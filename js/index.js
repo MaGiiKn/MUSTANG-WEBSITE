@@ -61,7 +61,14 @@ window.sr = ScrollReveal();
     distance: '-100px'
   });
 
-  
+  window.sr = ScrollReveal();
+  sr.reveal('.informaciones5, .slideshow', {
+    duration: 3000,
+    origin: 'top',
+    distance: '-100px'
+  });
+
+
 
 
 

@@ -230,23 +230,24 @@ nav{
     display: flex;
     flex-direction: column;
     position: relative;
-    border: solid azure;
     justify-content: center;
     gap: 5px;
     top: 100px;
+    z-index: 3;
+    left: 100px;
 
 }
 
 .titulo4{
     display: flex;
-    color: gray;
+    color:#2A2829;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
 }
 
 .titulo5{
     display: flex;
-    color: #DAD3D1;
+    color: #40373C;
     font-family: 'Bruno Ace', cursive;
     font-size: 40px;
 }
@@ -254,48 +255,70 @@ nav{
 .titulo6{
     display: flex;
     flex-wrap: wrap;
-    border: solid #DAD3D1;
+    border: solid #2A2829;
     width: 60px;
     height: 20px;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     font-size: 8px;
-    color: #DAD3D1;
+    color: #2A2829;
 }
 
 .slideshow{
-    display: flex;
-    position: relative;
+    position: absolute;
+    background-color: #ADADAD;
+    justify-content: center;
+    align-items: center;
     width: 1200px;
+    height: 650px;
+    animation: animate 10s infinite;
+}
+
+
+@keyframes animate{
+    30%{
+        background-image: url(./img/golf.png);
+    }
+
+    60%{
+        background-image: url(./img/vantage.png);
+    }
+
+    100%{
+        background-image: url(./img/288gto.png);
+    }
+}
+
+
+/* .slides{
+    display: flex;
     height: 400px;
-    animation: infinite;
-    animation: slideshow 30s infinite alternate;
+    width: 400px;
 }
 
-@keyframes slideshow {
-    30% {
-        background-image: url(./img/golf.png)
-    }
-
-    60% {
-        background-image: url(./img/288gto.png)
-    }
-
-    100% {
-        background-image: url(./img/vantage.png)
-    }
+.slides input{
+    display: none;
 }
 
+.slideshow img{
+    width: 400px;
+}
 
+.manualnavegation{
+    position: absolute;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
 
-
-
-
-
-
-
-
-
-
+.btn{
+    display: flex;
+    border: 2px solid #ADADAD;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    gap: 5px;
+} */
 
