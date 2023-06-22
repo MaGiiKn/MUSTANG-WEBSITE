@@ -40,34 +40,6 @@ window.sr = ScrollReveal();
     distance: '-100px'
   });
   
-  window.sr = ScrollReveal();
-  sr.reveal('.informaciones3', {
-    duration: 3000,
-    origin: 'right',
-    distance: '-100px'
-  });
-
-  window.sr = ScrollReveal();
-  sr.reveal('.titulo3', {
-    duration: 3000,
-    origin: 'left',
-    distance: '-100px'
-  });
-
-  window.sr = ScrollReveal();
-  sr.reveal('.informaciones4', {
-    duration: 3000,
-    origin: 'left',
-    distance: '-100px'
-  });
-
-  window.sr = ScrollReveal();
-  sr.reveal('.informaciones5, .slideshow', {
-    duration: 3000,
-    origin: 'top',
-    distance: '-100px'
-  });
-
 
 
 

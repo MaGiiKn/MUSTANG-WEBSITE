@@ -79,7 +79,9 @@ nav{
 
 .container img{
     position: absolute;
-    width: 700px;
+    width: 750px;
+    bottom: -110px;
+    right: -120px;
 }
 
 .informaciones{
@@ -307,36 +309,4 @@ nav{
         background-image: url(./img/288gto.png);
     }
 }
-
-
-/* .slides{
-    display: flex;
-    height: 400px;
-    width: 400px;
-}
-
-.slides input{
-    display: none;
-}
-
-.slideshow img{
-    width: 400px;
-}
-
-.manualnavegation{
-    position: absolute;
-    width: 800px;
-    display: flex;
-    justify-content: center;
-}
-
-.btn{
-    display: flex;
-    border: 2px solid #ADADAD;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-    gap: 5px;
-} */
 
