@@ -50,7 +50,7 @@ nav{
     display: flex;
     flex-direction: column;
     padding-left: 50px;
-    color: white;
+    color: #DAD3D1;
     font-family: 'Bruno Ace', cursive;
     font-size: 40px;
     position: absolute;
@@ -62,7 +62,7 @@ nav{
 }
 
 .history{
-    color: #ADADAD; 
+    color: #DAD3D1; 
 }
 
 .container{
@@ -88,7 +88,7 @@ nav{
     flex-direction: column;
     position: absolute;
     width: 300px;
-    color: white;
+    color: #DAD3D1;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     align-items: center;
@@ -100,7 +100,7 @@ nav{
 .masinformaciones{
     display: flex;
     flex-wrap: wrap;
-    border: solid white;
+    border: solid #DAD3D1;
     width: 100px;
     height: 30px;
     align-items: center;
@@ -116,9 +116,6 @@ nav{
     width: 1200px;
     height: 650px;
     border-bottom: solid #40373C; 
-}
-
-.section2{
     position: relative;
     justify-content: center;
 }
@@ -142,17 +139,17 @@ nav{
     position: absolute;
     gap: 5px;
     width: 700px;
-    color: white;
+    color: #DAD3D1;
     font-family: 'Bruno Ace', cursive;
     font-size: 40px;
-    left: 100px;
+    left: 0px;
     top: 150px;
 }
 
 #titulo1{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    color: gray; 
+    color: #DAD3D1; 
 }
 
 .container3{
@@ -162,59 +159,78 @@ nav{
 }
 
 .generalspecs{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 30px 30px 30px 30px;
     position: relative;
-    color: white;
+    width: 340px;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    align-items: center;
+    color: #DAD3D1;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
-    align-items: center;
-    left: 100px; 
+    top: 80px;
+    left: 0px; 
 }
 
-.informaciones3{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    align-items: center;
-    bottom: 30px;
-    width: 270px;
-    gap: 55px;
-    height: 25px;
-    border-bottom: solid azure;
-}   
-
-.specs{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#startingat{
+    font-weight: 600;
 }
 
-.specs1{
-    padding-left: 6px;
+#powerup{
+    font-weight: 600;
 }
 
-.titulo3{
-    display: flex;
+
+#cienkilometros{
+    font-weight: 600;
+}
+
+
+#mustanggt350{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 1/4;
     font-family: 'Bruno Ace', cursive;
-    font-size: 14px;
+    font-size: 18px;
+    height: 50px;
+    align-items: center;
+    border-top: solid #DAD3D1 1px;
+
 }
 
-.informaciones4{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    align-items: center;
-    gap: 20px;
-    width: 350px;
+#precio{
+    grid-row: 4/5;
+    grid-column: 1/2;
+    height: 50px; 
+}
+
+#hp{
+    grid-row: 4/5;
+    height: 50px; 
+}
+
+#aceleration{
     height: 50px;
-    top: 10px;
+}
+
+#price{
+    color: #DAD3D1;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#specifics{
+    color: #DAD3D1;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#velocity{
+    color: #DAD3D1;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .section3{
@@ -223,12 +239,12 @@ nav{
     position: relative;
     margin-left: 100px;
     margin-right: 100px;
-    background-color:#40373C;
+    background-color:#D0C8C8;
     width: 1200px;
     height: 650px;
 }
 
-.informaciones5{
+.informaciones3{
     display: flex;
     flex-direction: column;
     position: relative;
@@ -269,7 +285,7 @@ nav{
 
 .slideshow{
     position: absolute;
-    background-color: #ADADAD;
+    background-color: #D0C8C8;
     justify-content: center;
     align-items: center;
     width: 1200px;
