@@ -34,13 +34,39 @@ window.sr = ScrollReveal();
   });
 
   window.sr = ScrollReveal();
+  sr.reveal('.nose', {
+    duration: 3000,
+    origin: 'top',
+    distance: '-500px'
+  });
+
+ window.sr = ScrollReveal();
   sr.reveal('.informaciones2', {
     duration: 3000,
     origin: 'bottom',
     distance: '-100px'
-  });
-  
+  }); 
 
+  window.sr = ScrollReveal();
+  sr.reveal('.generalspecs', {
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+  }); 
+
+  window.sr = ScrollReveal();
+  sr.reveal('.informaciones3', {
+    duration: 3000,
+    origin: 'right',
+    distance: '-100px'
+  }); 
+
+  window.sr = ScrollReveal();
+  sr.reveal('.slides', {
+    duration: 3000,
+    origin: 'left',
+    distance: '-500px'
+  }); 
 
 
 
