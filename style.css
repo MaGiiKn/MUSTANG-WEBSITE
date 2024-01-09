@@ -155,12 +155,6 @@ nav{
     color: #DAD3D1; 
 }
 
-.container3{
-    display: flex;
-    position: relative;
-    width: 500px;  
-}
-
 .generalspecs{
     display: grid;
     grid-template-columns: 80px 80px 80px;
@@ -185,11 +179,9 @@ nav{
     font-weight: 600;
 }
 
-
 #cienkilometros{
     font-weight: 600;
 }
-
 
 #mustanggt350{
     display: grid;
@@ -200,7 +192,6 @@ nav{
     height: 50px;
     align-items: center;
     border-top: solid #DAD3D1 1px;
-
 }
 
 #precio{
@@ -254,8 +245,6 @@ nav{
     height: 50px;
     top: 100px;
     left: 50px;
-
-
 }
 
 .titulo4{
@@ -294,3 +283,44 @@ nav{
     overflow: hidden;
 }
 
+footer{
+    display: flex;
+    position: relative;
+    gap: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1200px;
+    height: 500px;
+    justify-content: space-evenly;
+}
+
+.footerinfo li, a{
+    color: #dad3d1;
+    list-style: none;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer h2{
+    font-size: 17px;
+}
+
+.footeremail{
+    font-family: 'Montserrat', sans-serif;
+    color: #DAD3D1;
+    list-style: none;
+}
+
+#emailbox{
+    width: 250px;
+    height: 30px;
+    border-radius: 0px;
+}
+
+#sendemailbtn{
+    height: 34px;
+    width: 45px;
+    border-radius: 0px;
+}
